@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96.03 166.33">
+	<defs>
+		<style>.cls-1{fill:#80ba27;}.cls-2{fill:#fff;}.cls-3{fill:#1d1d1b;}</style>
+	</defs>
+	<title>Asset 1</title>
+	<g id="Layer_2" data-name="Layer 2">
+		<g id="Layer_1-2" data-name="Layer 1">
+			<polyline class="cls-1" points="48.02 0 0 27.72 0 83.17 48.02 55.45 48.02 0"/>
+			<polyline class="cls-1" points="0 83.17 0 138.61 48.02 110.88 0.01 83.17 0 83.17"/>
+			<polyline class="cls-1" points="48.02 110.88 48.02 166.33 96.03 138.61 96.03 83.17 48.02 110.88"/>
+			<polyline class="cls-1" points="48.02 55.45 96.03 83.17 96.03 27.72 48.02 55.45"/>
+			<polyline class="cls-2" points="0.01 83.17 48.02 110.88 48.02 55.45 0.01 83.17"/>
+			<polyline class="cls-3" points="48.02 110.88 96.03 83.17 48.02 55.45 48.02 110.88"/>
+		</g>
+	</g>
+</svg>
