@@ -5,8 +5,53 @@
 
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap');
 
-/* .clickable {
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    @apply font-sans text-lg;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background: #edf2f7;
+}
+
+.theme-light {
+    background: #edf2f7;
+    color: #1a202c;
+}
+
+.theme-dark {
+    @apply text-white bg-gray-900;
+}
+
+.theme-dark form > input {
+    background: var(--color-contrast-1);
+}
+
+.main-container {
+    min-height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 100%;
+}
+
+.titlebar {
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
+
+body {
   -webkit-app-region: no-drag;
 }
 
@@ -19,4 +64,4 @@
 ::-webkit-scrollbar-thumb {
   background:  #6B6B6B;
   border-radius: 10px;
-} */
+}

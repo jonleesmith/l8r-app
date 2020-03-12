@@ -8,7 +8,7 @@ Vue.config.productionTip = false
 
 
 Vue.prototype.$axios = axios.create({
-  baseURL: 'https://www.thefuelcast.com/api/',
+    baseURL: 'https://l8r.netlify.com/.netlify/functions/',
 })
 
 new Vue({
